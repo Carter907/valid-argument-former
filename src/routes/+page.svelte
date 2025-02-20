@@ -51,15 +51,15 @@
         <div class="gap-10 flex flex-col items-start p-4 bg-neutral-800">
             <div class="flex w-full">
                 <label for="p-premise">$$P\ $$</label>
-                <input class="rounded px-2 bg-stone-900 w-1/2" name="p-premise"
+                <input class="rounded px-2 bg-stone-900 w-full" name="p-premise"
                        bind:value={p}/><br/>
             </div>
             <div class="flex w-full">
                 <label for="q-premise">$$Q\ $$</label>
-                <input class="rounded px-2 bg-stone-900 w-1/2" name="q-premise"
+                <input class="rounded px-2 bg-stone-900 w-full" name="q-premise"
                        bind:value={q}/><br/>
             </div>
-            <select class="bg-stone-900 p-2 self-stretch" bind:value={rule}>
+            <select class="bg-stone-900 p-2 w-1/2 translate-x-5 rounded" bind:value={rule}>
                 <option>Modus Ponens</option>
                 <option>Modus Tollens</option>
             </select>
